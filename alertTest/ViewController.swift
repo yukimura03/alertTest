@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBAction func tapButton(_ sender: Any) {
         if textField.text == "" {
-            message = "氏名は、必須項目です"
+            message = "テスト"
             myAlert()
         } else if (textField.text?.characters.count)! >= 16 {
             message = "氏名は、16文字以内で入力してください"
